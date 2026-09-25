@@ -6,7 +6,7 @@ PKG_RELEASE:=1
 
 PKG_SOURCE_PROTO:=git
 PKG_SOURCE_URL:=https://github.com/MaksimDalgeda/ESP-microcontroller-control-via-UBUS.git
-PKG_SOURCE_VERSION:=996d2d57d5b1d0787cc61c5e57a53042bcb9749c
+PKG_SOURCE_VERSION:=7ab24e9edcc2333bb358e3c53f9df6222379f192
 
 PKG_MIRROR_HASH:=skip
 
@@ -38,7 +38,7 @@ define Package/esp-controller/install
 	$(INSTALL_DIR) $(1)/usr/sbin
 
 	$(INSTALL_BIN) \
-		$(PKG_BUILD_DIR)/build/esp-ubus \
+		$(PKG_BUILD_DIR)/build/esp-controller \
 		$(1)/usr/sbin/esp-controller
 
 	$(INSTALL_DIR) $(1)/etc/init.d
