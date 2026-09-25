@@ -6,7 +6,7 @@ PKG_RELEASE:=1
 
 PKG_SOURCE_PROTO:=git
 PKG_SOURCE_URL:=https://github.com/MaksimDalgeda/ESP-microcontroller-control-via-UBUS.git
-PKG_SOURCE_VERSION:=6a428fc72df56fa11cbe16ab8e9605039ca5dde6
+PKG_SOURCE_VERSION:=996d2d57d5b1d0787cc61c5e57a53042bcb9749c
 
 PKG_MIRROR_HASH:=skip
 
